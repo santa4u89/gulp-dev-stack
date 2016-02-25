@@ -1,0 +1,21 @@
+{
+  "name": "gulp",
+  "authors": [
+    "Ronald Ruzicka <ronald.ruzicka@actum.cz>"
+  ],
+  "description": "gulp dev stack",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~4.0.0"
+  }
+}

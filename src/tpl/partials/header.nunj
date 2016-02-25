@@ -1,0 +1,11 @@
+{% from "../data/header-data.nunj" import data as data %}
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>{{ data.title }}</h1>
+        {{ data.subtitle | safe }}
+        <p>
+            <a class="btn btn-primary btn-md">{{ data.btnText }}</a>
+        </p>
+    </div>
+</div>
