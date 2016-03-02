@@ -7,18 +7,10 @@ import browserSync from 'browser-sync';
 import config from '../config';
 
 const { src, dist } = config.paths;
-const isDev = argv.dev || false;
 const isProd = argv.prod || false;
-/**
-
-    TODO:
-    - _prod not working in nunjucks templates
-
- */
 
 gulp.task('tpl', () => {
     var data = {
-        '_dev': isDev,
         '_prod': isProd
     };
     gulp.src(src.tpl.entry)
