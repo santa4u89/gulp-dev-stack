@@ -22,7 +22,7 @@ gulp.task('serve', ['prepare'], () => {
 
     if (!isProd) {
         watch(src.app.all, ['lint']);
-        watch(src.sass.all, ['styles']);
+        watch(src.styles.all, ['styles']);
         watch(src.tpl.all, ['tpl']);
         watch(gulpfile, ['lint:gulpfile']);
     }

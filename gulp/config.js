@@ -10,12 +10,15 @@ export default {
                 all: './src/app/**/*.js',
                 dest: './src/js'
             },
-            gfx: './src/gfx',
             html: './src/*.html',
-            sass: {
-                base: './src/sass',
-                entry: './src/sass/main.{scss,sass}',
-                all: './src/sass/**/*.{scss,sass}',
+            icon: {
+                entry: './src/gfx/svg/*.svg',
+                dest: './src/gfx/icon'
+            },
+            styles: {
+                base: './src/styles',
+                entry: './src/styles/main.scss',
+                all: './src/styles/**/*.scss',
                 dest: './src/css'
             },
             tpl: {
@@ -28,7 +31,8 @@ export default {
             base: './dist',
             css: './dist/css',
             js: './dist/js',
-            html: './dist/*.html'
+            html: './dist/*.html',
+            icon: './dist/gfx/icon'
         },
         names: {
             css: {
