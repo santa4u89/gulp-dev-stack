@@ -1,17 +1,15 @@
 // Bootstrap
-// @import 'bootstrap/bootstrap';
+@import 'bootstrap/bootstrap';
 
 // Variables
 @import 'vars';
 @import 'mixins';
 
 // Typography
-// @import 'typography/typography';
+@import 'typography/*';
 
 // Layout
-@import 'layout/header';
-@import 'layout/nav';
-@import 'layout/flexbox';
+@import 'layout/*';
 
 // Components
-// @import 'components/logo';
+@import 'components/*';
